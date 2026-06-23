@@ -54,7 +54,7 @@ models:
       and data types from the raw yellow_tripdata source, providing a clean foundation
       for downstream transformations.
     columns:
-      - name: vendor_id
+      - name: vendorid
         description: Taxi technology provider (1 = Creative Mobile Technologies, 2 = VeriFone Inc.)
         data_tests:
           - not_null
